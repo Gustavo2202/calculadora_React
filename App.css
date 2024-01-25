@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cssTela {
+    display: flex;
+    padding-Left: 20px;
+    padding-Right: 20px;
+    justify-content: center ;
+    align-Items: center;
+    background-Color: #fff;
+    flex-Direction: column;
+    width: 260px;
+  }
+  
+.cssTelaOper{
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+    height: 20px;
+  }
+.cssTelaRes {
+    font-Size: 50px;
+    font-weight: bolder;
+    color: black;
+  }
+  
+.cssBtn {
+    font-size: 30px;
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    color: orangered;
+    font-weight: bold;
+    border-color: none;
+    text-align: center;
+    outline: none;
+    
+}
+
+.cssBtns {
+    flex-Direction: row;
+    flex-Wrap: wrap;
+}
+
+.cssContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-Direction: column;
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 5px;
+    transform: translate(-50% -50%);
+}
